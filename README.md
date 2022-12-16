@@ -31,3 +31,9 @@
 ### Java 面试题
 
 #### [错题记录](src/main/interview/java/2022-12-15/record.md)
+
+## 2022.12.16
+
+### Java 面试题
+
+#### [错题记录](src/main/interview/java/2022-12-16/record.md)

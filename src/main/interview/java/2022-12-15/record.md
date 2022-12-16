@@ -1,3 +1,7 @@
+# 2022-12-15
+
+---
+
 **我们在程序中经常使用“System.out.println()”来输出信息，语句中的System是包名，out是类名，println是方法名。**
 A、对
 B、错
