@@ -1,29 +1,36 @@
-public class Test implements In {
+public class Test {
     public static void main(String[] args) {
-    }
-
-    void fermin(int i) {
-        i++;
-    }
-
-    @Override
-    public void f() {
-
     }
 }
 
-class StaticStuff {
-    static int x = 10;
-
-    static {
-        x += 5;
+class A {
+    public A() {
+        System.out.println("class A");
     }
 
-    public static void main(String args[]) {
-        System.out.println("x=" + x);
+    {
+        System.out.println("I'm A class");
     }
 
     static {
-        x /= 3;
+        System.out.println("class A static");
+    }
+}
+
+class B extends A {
+    public B() {
+        System.out.println("class B");
+    }
+
+    {
+        System.out.println("I'm B class");
+    }
+
+    static {
+        System.out.println("class B static");
+    }
+
+    public static void main(String[] args) {
+        new B();
     }
 }
